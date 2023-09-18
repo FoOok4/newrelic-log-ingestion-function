@@ -23,7 +23,7 @@ In your Terraform, you can add this as a module, replacing `{{YOUR_LICENSE_KEY}}
 
 ```terraform
 module "newrelic_log_ingestion" {
-  source             = "github.com/newrelic/aws-log-ingestion"
+  source             = "github.com/FoOok4/newrelic-log-ingestion-function"
   nr_license_key     = "{{YOUR_LICENSE_KEY}}"
 }
 ```
